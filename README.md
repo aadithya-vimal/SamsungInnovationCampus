@@ -34,7 +34,8 @@ Here is a breakdown of the notebooks included in this repository:
 
 * **Language:** Python 3
 * **Environment:** Jupyter Notebook / Google Colab
-* **Libraries (Expected):** * `NumPy` (for numerical and matrix operations)
+* **Libraries (Expected):**
+  * `NumPy` (for numerical and matrix operations)
   * `Matplotlib` / `Seaborn` (for data visualization)
   * `SymPy` or `SciPy` (for symbolic mathematics and differentiation)
   * `Pandas` (for data manipulation)
