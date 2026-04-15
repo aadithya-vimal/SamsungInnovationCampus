@@ -17,12 +17,12 @@ Here is a breakdown of the notebooks included in this repository:
   * Exploration of Linear Algebra fundamentals, specifically focusing on vector operations, dot products, cross products, and vector spaces.
 * **`MatrixFunction&Differentiation_10_4_26.ipynb`**
   * Advanced mathematical concepts covering matrix operations, transformations, and an introduction to calculus through computational differentiation.
+* **`SamsungMiniProject_10_4_26.ipynb`**
+  * A research-style mini-project on population forecasting that fuses classical Geometric Progression demographic models with modern Gradient Boosting (XGBoost) to analyse and predict population trends.
 * **`NumpyBasics_13_4_26.ipynb`**
   * Introduction to NumPy arrays covering array creation from lists, tuples, and ranges, array properties (size, shape, dimensions), and mixed data types.
 * **`NumpyPracticeQuestions_13_4_26.ipynb`**
   * Practice problems reinforcing NumPy array fundamentals, including `np.ones`, `np.linspace`, indexing, slicing, and array arithmetic.
-* **`SamsungMiniProject_10_4_26.ipynb`**
-  * A research-style mini-project on population forecasting that fuses classical Geometric Progression demographic models with modern Gradient Boosting (XGBoost) to analyse and predict population trends.
 * **`NumpyOperations_15_4_26.ipynb`**
   * Applied NumPy operations on an employee dataset: extracting and casting numeric and categorical columns, and computing summary statistics (mean, median, standard deviation, min/max).
 * **`SamsungTest_13_4_26.ipynb`**
