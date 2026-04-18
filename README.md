@@ -12,6 +12,27 @@ It highlights progression from mathematical foundations to practical data analys
 ![GitHub merged/closed PRs](https://img.shields.io/github/issues-pr-closed/aadithya-vimal/SamsungInnovationCampus?style=for-the-badge&label=merged%2Fclosed%20PRs)
 ![GitHub last commit](https://img.shields.io/github/last-commit/aadithya-vimal/SamsungInnovationCampus?style=for-the-badge)
 
+## Repository visual metrics
+
+### Notebook coverage by course track
+
+```mermaid
+pie title Notebook Distribution (14 Total)
+    "Math & AI Foundations (4)" : 4
+    "Practice & Assessments (4)" : 4
+    "Python for Data Analysis (4)" : 4
+    "Dataset-Based Analysis (2)" : 2
+```
+
+### Asset composition in this repository
+
+```mermaid
+pie title Repository Assets (20 Total)
+    "Jupyter Notebooks (.ipynb) - 14" : 14
+    "Datasets (.csv) - 5" : 5
+    "Images (.png) - 1" : 1
+```
+
 ## What this repository demonstrates
 
 - Applied mathematics for AI (functions, algebra, vectors, matrices, differentiation)
