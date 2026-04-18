@@ -1,73 +1,63 @@
-# Samsung Innovation Campus - Internship Portfolio
+# Samsung Innovation Campus - AI Course Showcase
 
-Welcome to my repository for the **Samsung Innovation Campus** program. This repository contains a collection of Jupyter Notebooks demonstrating my coursework, mini-projects, and assessments completed during the internship. 
+This repository is a curated showcase of hands-on work completed in the **Samsung Innovation Campus AI course**.  
+It highlights progression from mathematical foundations to practical data analysis using Python notebooks.
 
-The primary focus of these modules is the practical implementation of foundational mathematics (Algebra, Calculus, and Linear Algebra) using Python, which serves as a stepping stone for advanced Data Science and Machine Learning concepts.
+## What this repository demonstrates
 
-## 🗂️ Repository Structure
+- Applied mathematics for AI (functions, algebra, vectors, matrices, differentiation)
+- Core Python data stack skills with **NumPy** and **Pandas**
+- Exploratory data analysis and mini-project execution on real datasets
+- Course assessments and practice notebooks
 
-Here is a breakdown of the notebooks included in this repository:
+## Course notebook collection
 
-* **`MathFunctionInPython_7_4_26.ipynb`** * Introduction to implementing core mathematical functions and operations using Python.
-* **`MathAlgebra_8_4_26.ipynb`**
-  * Practical implementation of algebraic concepts, solving equations, and algebraic structures in Python.
-* **`MiniProject_8_4_26.ipynb`**
-  * A comprehensive mini-project applying the algebraic and functional concepts learned in the previous modules to solve a broader problem.
-* **`VectorsInPython_9_4_26.ipynb`**
-  * Exploration of Linear Algebra fundamentals, specifically focusing on vector operations, dot products, cross products, and vector spaces.
-* **`MatrixFunction&Differentiation_10_4_26.ipynb`**
-  * Advanced mathematical concepts covering matrix operations, transformations, and an introduction to calculus through computational differentiation.
-* **`SamsungMiniProject_10_4_26.ipynb`**
-  * A research-style mini-project on population forecasting that fuses classical Geometric Progression demographic models with modern Gradient Boosting (XGBoost) to analyse and predict population trends.
-* **`NumpyBasics_13_4_26.ipynb`**
-  * Introduction to NumPy arrays covering array creation from lists, tuples, and ranges, array properties (size, shape, dimensions), and mixed data types.
-* **`NumpyPracticeQuestions_13_4_26.ipynb`**
-  * Practice problems reinforcing NumPy array fundamentals, including `np.ones`, `np.linspace`, indexing, slicing, and array arithmetic.
-* **`NumpyOperations_15_4_26.ipynb`**
-  * Applied NumPy operations on an employee dataset: extracting and casting numeric and categorical columns, and computing summary statistics (mean, median, standard deviation, min/max).
-* **`SamsungTest_13_4_26.ipynb`**
-  * Practical assessment/test notebook evaluating the combined knowledge of Python programming and applied mathematics.
-* **`StudentDataAnalysis_15_4_26.ipynb`**
-  * Student performance data analysis using NumPy and Pandas: extracting study hours, attendance, marks, and sleep data, computing descriptive statistics, and applying Linear Regression to identify performance predictors.
+### 1) Math & AI Foundations
+- `MathFunctionInPython_7_4_26.ipynb`
+- `MathAlgebra_8_4_26.ipynb`
+- `VectorsInPython_9_4_26.ipynb`
+- `MatrixFunction&Differentiation_10_4_26.ipynb`
 
-## 🛠️ Technologies & Libraries Used
+### 2) Practice & Assessments
+- `MiniProject_8_4_26.ipynb`
+- `SamsungMiniProject_10_4_26.ipynb`
+- `SamsungTest_13_4_26.ipynb`
+- `NumpyPracticeQuestions_13_4_26.ipynb`
 
-* **Language:** Python 3
-* **Environment:** Jupyter Notebook / Google Colab
-* **Libraries (Expected):**
-  * `NumPy` (for numerical and matrix operations)
-  * `Matplotlib` / `Seaborn` (for data visualization)
-  * `SymPy` or `SciPy` (for symbolic mathematics and differentiation)
-  * `Pandas` (for data manipulation)
+### 3) Python for Data Analysis
+- `NumpyBasics_13_4_26.ipynb`
+- `NumpyOperations_15_4_26.ipynb`
+- `PandasBasics_16_4_26.ipynb`
+- `DataPreprocessing_17_4_26.ipynb`
 
-## 🚀 How to Run
+### 4) Dataset-Based Analysis
+- `StudentDataAnalysis_15_4_26.ipynb`
+- `TitanicAnalysis_15_4_26.ipynb`
 
-To view or run these notebooks locally, you will need to have Python installed along with Jupyter.
+## Datasets included
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/aadithya-vimal/SamsungInnovationCampus.git
-   ```
-2.  Navigate to the directory:
-    ```bash
-    cd SamsungInnovationCampus
-    ```
-3.  Install the required dependencies (if you don't have them already):
-    ```bash
-    pip install numpy pandas matplotlib scipy jupyter
-    ```
-4.  Launch Jupyter Notebook:
-    ```bash
-    jupyter notebook
-    ```
+- `Emp_data.csv`
+- `Student.csv`
+- `House.csv`
+- `titanic.csv`
+- `data_sales.csv`
 
-*(Alternatively, you can open any of these `.ipynb` files directly in Google Colab).*
+## Tech stack
 
-## 👨‍💻 Author
+- **Language:** Python 3
+- **Environment:** Jupyter Notebook / Google Colab
+- **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, SciPy/SymPy
 
-**Aadithya Vimal**
+## Run locally
 
-  * GitHub: [@aadithya-vimal](https://www.google.com/search?q=https://github.com/aadithya-vimal)
-  * Program: Samsung Innovation Campus
+```bash
+git clone https://github.com/aadithya-vimal/SamsungInnovationCampus.git
+cd SamsungInnovationCampus
+pip install numpy pandas matplotlib seaborn scipy jupyter
+jupyter notebook
+```
 
-<!-- end list -->
+## Author
+
+**Aadithya Vimal**  
+GitHub: [@aadithya-vimal](https://github.com/aadithya-vimal)
