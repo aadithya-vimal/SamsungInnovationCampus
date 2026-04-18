@@ -3,7 +3,7 @@
 This repository is a curated showcase of hands-on work completed in the **Samsung Innovation Campus AI course**.  
 It highlights progression from mathematical foundations to practical data analysis using Python notebooks.
 
-![Samsung Innovation Campus AI Course](https://img.us.news.samsung.com/us/wp-content/uploads/2022/11/29175233/SIC-NWSRM-Featured-Image-798-%C3%97-500-px.png)
+<img src="Samsung-Innovation-Campus.png">
 
 ## GitHub stats
 
