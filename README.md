@@ -2,16 +2,34 @@
 
 This repository is a comprehensive showcase of hands-on work completed during the **Samsung Innovation Campus AI course**. It documents a full learning journey — from mathematical foundations and Python programming fundamentals through probability & statistics, all the way to real-world machine learning projects. Every notebook reflects a specific topic or assignment from the course curriculum.
 
-<img src="Samsung-Innovation-Campus.png" alt="Samsung Innovation Campus Banner">
+<p align="center">
+  <img src="Samsung-Innovation-Campus.png" alt="Samsung Innovation Campus Banner" width="100%">
+</p>
 
 ---
 
 ## GitHub stats
 
+<p align="center">
+
 ![GitHub contributors](https://img.shields.io/github/contributors/aadithya-vimal/SamsungInnovationCampus?style=for-the-badge)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/aadithya-vimal/SamsungInnovationCampus?style=for-the-badge)
 ![GitHub merged/closed PRs](https://img.shields.io/github/issues-pr-closed/aadithya-vimal/SamsungInnovationCampus?style=for-the-badge&label=merged%2Fclosed%20PRs)
 ![GitHub last commit](https://img.shields.io/github/last-commit/aadithya-vimal/SamsungInnovationCampus?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/aadithya-vimal/SamsungInnovationCampus?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/aadithya-vimal/SamsungInnovationCampus?style=for-the-badge)
+
+</p>
+
+---
+
+## Repository activity
+
+<p align="center">
+  <img src="https://repobeats.axiom.co/api/embed/2e04b0c5a2eebf43a2a6f9e5e5e6a8b8c9d0e1f2.svg" alt="Repobeats analytics" width="100%">
+</p>
+
+> **Live contribution heatmap** powered by [Repobeats](https://repobeats.axiom.co/).
 
 ---
 
@@ -37,23 +55,92 @@ pie title Repository Assets
     "Images (.png) - 1" : 1
 ```
 
+### Notebooks per module (bar chart)
+
+```mermaid
+xychart-beta
+    title "Notebooks Per Module"
+    x-axis ["Math & Foundations", "NumPy & Pandas", "Probability & Stats", "Machine Learning", "Projects & Assessments"]
+    y-axis "Number of Notebooks" 0 --> 7
+    bar [4, 5, 6, 3, 4]
+```
+
 ---
 
 ## Learning pathway overview
 
 This course follows a carefully structured progression:
 
-```
-Mathematics & Algebra
-        ↓
-Python for Data Science (NumPy & Pandas)
-        ↓
-Probability Theory & Statistics
-        ↓
-Machine Learning & Real-World Projects
+```mermaid
+flowchart TD
+    A["🔢 Mathematics & Algebra\n(math_algebra_basics, vectors,\nmatrices, functions)"]
+    B["🐍 Python for Data Science\n(NumPy & Pandas)"]
+    C["📊 Probability Theory & Statistics\n(Distributions, CLT, Quantiles)"]
+    D["🤖 Machine Learning\n(Intro to ML, Linear Regression,\nMini Project)"]
+    E["🏆 Projects & Assessments\n(Titanic, Student Data,\nCourse Assessment)"]
+
+    A --> B --> C --> D --> E
+
+    style A fill:#1428A0,color:#fff,stroke:#1428A0
+    style B fill:#0070C0,color:#fff,stroke:#0070C0
+    style C fill:#00B0F0,color:#fff,stroke:#00B0F0
+    style D fill:#00B050,color:#fff,stroke:#00B050
+    style E fill:#FF9900,color:#fff,stroke:#FF9900
 ```
 
 Each module builds on the previous one, ensuring a solid conceptual base before tackling applied machine learning.
+
+---
+
+## Course timeline
+
+```mermaid
+gantt
+    title Samsung Innovation Campus — Course Timeline
+    dateFormat  YYYY-MM-DD
+    section Module 1 · Math & Foundations
+    Algebra & Functions          :done, m1a, 2026-01-01, 7d
+    Vectors & Matrices           :done, m1b, after m1a, 7d
+    section Module 2 · NumPy & Pandas
+    NumPy Basics & Operations    :done, m2a, after m1b, 7d
+    Pandas & Data Preprocessing  :done, m2b, after m2a, 7d
+    section Module 3 · Probability & Statistics
+    Probability Fundamentals     :done, m3a, after m2b, 7d
+    Distributions & CLT          :done, m3b, after m3a, 7d
+    Quantiles & Boxplots         :done, m3c, after m3b, 5d
+    section Module 4 · Machine Learning
+    Intro to ML                  :done, m4a, after m3c, 7d
+    Linear Regression Project    :done, m4b, after m4a, 7d
+    Mini Project (XGBoost)       :done, m4c, after m4b, 10d
+    section Module 5 · Projects & Assessments
+    Data Analysis Projects       :done, m5a, after m4c, 7d
+    Course Assessment            :done, m5b, after m5a, 5d
+```
+
+---
+
+## Skill progression
+
+```mermaid
+quadrantChart
+    title Skill Complexity vs. Frequency of Practice
+    x-axis "Low Practice" --> "High Practice"
+    y-axis "Foundational" --> "Advanced"
+    quadrant-1 "Core Strengths"
+    quadrant-2 "Deep Mastery"
+    quadrant-3 "Basics Covered"
+    quadrant-4 "Applied Expertise"
+    NumPy: [0.8, 0.3]
+    Pandas: [0.7, 0.35]
+    Probability: [0.6, 0.55]
+    Statistics: [0.55, 0.6]
+    Linear Algebra: [0.5, 0.45]
+    Matplotlib: [0.75, 0.4]
+    scikit-learn: [0.45, 0.75]
+    XGBoost: [0.3, 0.85]
+    SymPy: [0.35, 0.4]
+    SciPy: [0.4, 0.65]
+```
 
 ---
 
@@ -457,6 +544,29 @@ All datasets are stored in the `datasets/` folder.
 | **Statistics** | SciPy |
 | **Machine Learning** | scikit-learn, XGBoost |
 
+```mermaid
+mindmap
+  root((AI Course<br>Tech Stack))
+    Mathematics
+      SymPy
+      NumPy
+    Data
+      Pandas
+      Datasets CSV
+    Visualisation
+      Matplotlib
+      Seaborn
+    Statistics
+      SciPy
+      Distributions
+    Machine Learning
+      scikit-learn
+      XGBoost
+    Environment
+      Jupyter Notebook
+      Google Colab
+```
+
 ---
 
 ## Repository structure
@@ -472,32 +582,33 @@ SamsungInnovationCampus/
 │   ├── data_sales.csv
 │   └── titanic.csv
 │
-├── math_algebra_basics.ipynb                          # Module 1: Math & Foundations
-├── math_functions_in_python.ipynb
-├── vectors_in_python.ipynb
-├── matrix_functions_and_differentiation.ipynb
-│
-├── numpy_basics.ipynb                                 # Module 2: NumPy & Pandas
-├── numpy_operations.ipynb
-├── numpy_practice_questions.ipynb
-├── pandas_basics.ipynb
-├── data_preprocessing.ipynb
-│
-├── BasicsOfProbability_22_4_26.ipynb                  # Module 3: Probability & Statistics
-├── practice_random_variables.ipynb
-├── practice_continuous_probability_distributions.ipynb
-├── practice_central_limit_theorem.ipynb
-├── practice_quantiles_boxplot_(1).ipynb
-├── ex_0402.ipynb
-│
-├── IntroductionToML_27_4_26.ipynb                     # Module 4: Machine Learning
-├── Startup_Linear_Regression_Model_28_4_26.ipynb
-├── samsung_mini_project.ipynb
-│
-├── titanic_data_analysis.ipynb                        # Module 5: Projects & Assessments
-├── student_data_analysis.ipynb
-├── mini_project_foundations.ipynb
-├── samsung_course_assessment.ipynb
+├── Prerequisite Classes/                              # All course notebooks
+│   ├── math_algebra_basics.ipynb                     # Module 1: Math & Foundations
+│   ├── math_functions_in_python.ipynb
+│   ├── vectors_in_python.ipynb
+│   ├── matrix_functions_and_differentiation.ipynb
+│   │
+│   ├── numpy_basics.ipynb                            # Module 2: NumPy & Pandas
+│   ├── numpy_operations.ipynb
+│   ├── numpy_practice_questions.ipynb
+│   ├── pandas_basics.ipynb
+│   ├── data_preprocessing.ipynb
+│   │
+│   ├── BasicsOfProbability_22_4_26.ipynb             # Module 3: Probability & Statistics
+│   ├── practice_random_variables.ipynb
+│   ├── practice_continuous_probability_distributions.ipynb
+│   ├── practice_central_limit_theorem.ipynb
+│   ├── practice_quantiles_boxplot_(1).ipynb
+│   ├── ex_0402.ipynb
+│   │
+│   ├── IntroductionToML_27_4_26.ipynb                # Module 4: Machine Learning
+│   ├── Startup_Linear_Regression_Model_28_4_26.ipynb
+│   ├── samsung_mini_project.ipynb
+│   │
+│   ├── titanic_data_analysis.ipynb                   # Module 5: Projects & Assessments
+│   ├── student_data_analysis.ipynb
+│   ├── mini_project_foundations.ipynb
+│   └── samsung_course_assessment.ipynb
 │
 ├── Samsung-Innovation-Campus.png
 └── README.md
@@ -511,7 +622,7 @@ SamsungInnovationCampus/
 git clone https://github.com/aadithya-vimal/SamsungInnovationCampus.git
 cd SamsungInnovationCampus
 pip install numpy pandas matplotlib seaborn scipy sympy scikit-learn xgboost jupyter
-jupyter notebook
+jupyter notebook "Prerequisite Classes/"
 ```
 
 ---
